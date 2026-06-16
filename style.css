@@ -1,0 +1,42 @@
+@charset "UTF_8";
+@font-face {
+    font-family: 'newamsterdam';
+    src: url(fontes/NewAmsterdam.ttf) format(truetype);
+}
+:root{
+    --cor01: #000000;
+    --cor02: #ffffff;
+    --fonte01: 'newamsterdam';
+}
+body{
+    margin: 0px;
+    background-image: url(imgens/flor.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+header{
+    padding: 20px;
+    background-color: var(--cor01);
+}
+h1{
+    font-family: 'newamsterdam', sans-serif;
+    text-align: center;
+    color: var(--cor02);
+    width: normal;
+    font-size: 50px;
+}
+nav{
+    text-align: center;
+}
+nav > a{
+    color: var(--cor02);
+    text-decoration: none;
+    width: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    background-color: var(--cor02);
+}
