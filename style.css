@@ -7,17 +7,22 @@
     --cor01: #000000;
     --cor02: #ffffff;
     --fonte01: 'newamsterdam';
+    --fonte02: 'internet';
 }
 body{
     background-position: absolute;
     margin: 0px;
-    background-image: url(imagens/flor.webp);
+    background-color: var(--cor01);
+    background-image: url(imagens/flor.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
-
+    max-width: 1500px;
+    min-width: 375px;
 }
 header{
+    margin-right: -30px;
     padding: 20px;
     background-color: var(--cor01);
 }
@@ -28,10 +33,12 @@ h1{
     width: normal;
     font-size: 50px;
 }
-nav{
+p{
+    color: var(--cor02);
     text-align: center;
 }
-nav > a{
+p > a{
+    margin: 5px;
     color: var(--cor02);
     text-decoration: none;
     width: bold;
@@ -40,7 +47,19 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    color: var(--cor02);
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    background-color: var(--cor02);
     font-size: 20px;
     background-position: relative;
+
+}
+.fundo{
+    color: var(--cor02);
+    background-color: rgba(0, 0, 0, 0.263);
+    margin: 0px 500px 0px 0px;
+    padding: 20px;
 }
