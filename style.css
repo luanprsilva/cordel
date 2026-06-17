@@ -32,6 +32,7 @@ h1{
     color: var(--cor02);
     width: normal;
     font-size: 50px;
+    font-size: 10vw;
 }
 p{
     color: var(--cor02);
@@ -53,13 +54,13 @@ section{
     padding-left: 30px;
     line-height: 2em;
     background-color: var(--cor02);
-    font-size: 20px;
+    font-size: 3vw;
     background-position: relative;
 
 }
 .fundo{
     color: var(--cor02);
     background-color: rgba(0, 0, 0, 0.263);
-    margin: 0px 500px 0px 0px;
     padding: 20px;
+    display: inline-block;
 }
